@@ -527,7 +527,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "bloo.kicad_pro",
+    "filename": "stuart.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -992,8 +992,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "bloo.kicad_sch",
-        "name": "bloo",
+        "filename": "stuart.kicad_sch",
+        "name": "stuart",
         "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ],
