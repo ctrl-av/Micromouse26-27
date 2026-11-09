@@ -1,7 +1,7 @@
 (footprint "5V Voltage Reg" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
-  (attr smd)
+  (attr through_hole)
   (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 8ab71750-3877-45d3-8b64-c321f83fcf96)

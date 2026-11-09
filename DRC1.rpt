@@ -1,0 +1,44 @@
+** Drc report for bloo.kicad_pcb **
+** Created on 2026-11-08T20:04:39 **
+** Report includes: Errors, Warnings **
+
+** Found 6 DRC violations **
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(5055.12 mils, 3664.17 mils): Segment of M_MH1 on F.Silkscreen
+    @(4921.06 mils, 3887.20 mils): Segment of U1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(6871.26 mils, 3664.17 mils): Segment of M_MH2 on F.Silkscreen
+    @(4921.06 mils, 3887.20 mils): Segment of U1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(4720.47 mils, 3951.57 mils): Segment of M_MH1 on F.Silkscreen
+    @(4921.06 mils, 4782.87 mils): Segment of U1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(7205.91 mils, 3951.57 mils): Segment of M_MH2 on F.Silkscreen
+    @(7013.58 mils, 3887.20 mils): Segment of U1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4720.47 mils, 3951.57 mils): Segment of M_MH1 on F.Silkscreen
+    @(4779.53 mils, 3917.32 mils): NPTH pad of BT_MH1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(7205.91 mils, 3951.57 mils): Segment of M_MH2 on F.Silkscreen
+    @(7147.24 mils, 3917.32 mils): NPTH pad of BT_MH2
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
